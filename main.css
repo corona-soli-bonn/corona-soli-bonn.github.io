@@ -80,6 +80,10 @@ main section h2 {
     line-height: 1.5;
 }
 
+main section li {
+    margin: 0 0 .5rem 1rem;
+}
+
 main section#hotline {
     margin-top: .5rem;
     border: 2px solid #a81967;
@@ -106,9 +110,11 @@ main section#hotline div a {
     font-weight: 700;
 }
 
-main section li {
-    margin: 0 0 .5rem 1rem;
+main section#forderungen h3 {
+    margin-top: 1em;
 }
+
+
 
 footer {
     background-color: indianred;
