@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a {
+    font-weight: 700;
+}
+
+h1{
+    font: 1.8em 'Times new roman',Times,serif;
+    color: #333;
+}
+
+h2 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: .5rem;
+
+    font-size: 30px;
+
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+h2.title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    border: none;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: .7rem 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 100;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #333;
+    margin-top: 40px;
+    padding-top: 2rem;
+
+    font-size: 14px;
+}
+
+@media (max-width: 900px){
+    main {
+        padding: 1rem .5rem;
+    }
+}
+
+main section {
+    margin-top: 2.5rem;
+}
+
+main section p,
+main section h2 {
+    margin: 0 0 .5rem;
+    line-height: 1.5;
+}
+
+main section#hotline {
+    margin-top: .5rem;
+    border: 2px solid #a81967;
+    border-radius: 4px;
+    padding: 2rem;
+    color:#a81967;
+}
+
+main section#hotline h2 {
+    margin: 0;
+    border: none;
+}
+
+main section#hotline a{
+    color: #782c6a;
+}
+
+main section#hotline div {
+    margin-bottom: 1.5rem;
+}
+
+main section#hotline div a {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main section li {
+    margin: 0 0 .5rem 1rem;
+}
+
+footer {
+    background-color: indianred;
+    color: white;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+footer a{
+    color: #64000d;
+}
