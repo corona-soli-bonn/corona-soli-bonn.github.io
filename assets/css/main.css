@@ -93,6 +93,11 @@ main section#hotline {
 main section#hotline h2 {
     margin: 0;
     border: none;
+    padding-bottom: 0;
+}
+
+main section#hotline h3 {
+    margin-top: 0;
 }
 
 main section#hotline a{
